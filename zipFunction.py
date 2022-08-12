@@ -17,7 +17,7 @@ def zip():
   print(colour, fruits)
   '''
   st.code(code, language='python')
-
+  st.download_button('Download Code', code)
   st.write("""
   ### Output
   """)
@@ -28,7 +28,7 @@ def zip():
   green mango
   '''
   st.code(code, language='python')
-
+  st.download_button('Download Code', code)
   st.write("""
   The zip() function can also be used for combining two lists into a dictionary. This method can be really helpful while grouping data from the list.
   """)
