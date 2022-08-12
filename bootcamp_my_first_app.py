@@ -1,7 +1,7 @@
 import streamlit as st
 import walrus 
+import splitting
 
 walrus.walrus()
-st.write("""
-trying
-""")
+splitting.splitting()
+
