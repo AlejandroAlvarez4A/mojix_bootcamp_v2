@@ -7,7 +7,7 @@ import zipFunction
 from PIL import Image
 image = Image.open('images/python.gif')
 
-st.write("# 10 Cool Beginner Python Tricks That Will Make Your Life Easier")
+st.write("# 5 Cool Beginner Python Tricks That Will Make Your Life Easier")
 st.image(image, caption='Python')
 st.write("""
 The compactness of Python can make a developer’s life a lot easier when writing lines and lines of code. But there are some lesser-known Python tricks that can surprise you with their amazing capabilities.
@@ -22,3 +22,11 @@ reversing.reversing()
 mergingTwoDictionaries.merging()
 zipFunction.zip()
 
+st.write("# Conclusion")
+st.write("""
+These were a few amazing Python tips and tricks which will make your work a lot easier while coding. There are many more shortcuts like these that you can explore from the official documentation or any other website.
+
+Note: This article contains an affiliate link. This means that if you click on it and choose to buy the resource I linked above, a small portion of your subscription fee will go to me.
+
+However, the recommended resource is experienced by me and helped me in my data science career journey.
+""")
