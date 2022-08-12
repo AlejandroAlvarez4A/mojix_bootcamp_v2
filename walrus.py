@@ -1,3 +1,5 @@
+import streamlit as st
+
 def walrus():
   st.write("""
   ## 1. Walrus operator
