@@ -17,6 +17,7 @@ def walrus():
   print(l)
   '''
   st.code(code, language='python')
+  st.download_button('Download Code', code)
 
   st.write("""
   ### Output
